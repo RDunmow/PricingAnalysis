@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field">
+    <sys_rte_eb_etl_field action="INSERT_OR_UPDATE">
+        <coalesce>false</coalesce>
+        <coercion_action>create</coercion_action>
+        <field>u_typ</field>
+        <name>Typ</name>
+        <sys_class_name>sys_rte_eb_etl_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-10 08:09:30</sys_created_on>
+        <sys_id>c2627df887449110ea0842609bbb35a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Typ</sys_name>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Market Quote_etl_ihub">3d6279f887449110ea0842609bbb358a</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Source_x_snc_pricing_an_0_ihub_import_13fce97087449110ea0842609bbb35f7">3d6279f887449110ea0842609bbb3590</sys_rte_eb_entity>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_field_c2627df887449110ea0842609bbb35a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-10 08:09:30</sys_updated_on>
+    </sys_rte_eb_etl_field>
+</record_update>

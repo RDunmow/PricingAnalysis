@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_data_mapping_definition">
+    <sn_ihub_data_mapping_definition action="INSERT_OR_UPDATE">
+        <integration_table>sys_data_source</integration_table>
+        <record_id>1bfce97087449110ea0842609bbb35f8</record_id>
+        <source_structure display_value="FDc953cdfdd88cd5106e467dbe1925da0f">4d53cdfd1b8cd510282aa75ee54bcb0f</source_structure>
+        <sys_class_name>sn_ihub_data_mapping_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-10 08:08:48</sys_created_on>
+        <sys_id>6f3279f887449110ea0842609bbb35c9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name>sn_ihub_data_mapping_definition_6f3279f887449110ea0842609bbb35c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-13 07:17:45</sys_updated_on>
+    </sn_ihub_data_mapping_definition>
+</record_update>

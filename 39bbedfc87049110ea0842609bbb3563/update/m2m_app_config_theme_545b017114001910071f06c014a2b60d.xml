@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-13 07:52:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>545b017114001910071f06c014a2b60d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name>m2m_app_config_theme_545b017114001910071f06c014a2b60d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-13 07:52:40</sys_updated_on>
+        <theme display_value="Starter Workspace Theme">145b01715200191046e5edcb274bcc0d</theme>
+        <ux_app_configuration display_value="Pricing Config">945b01718c0019108ff09dd48db3050d</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="pros_status" table="x_snc_pricing_an_0_analysis" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>pros_status</element>
+            <name>x_snc_pricing_an_0_analysis</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-10 16:04:07</sys_created_on>
+            <sys_id>960f5f7087cc9110ea0842609bbb350d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>pros_status</sys_name>
+            <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+            <sys_update_name>sys_choice_x_snc_pricing_an_0_analysis_pros_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-10 16:04:07</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pros_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Search Master</label>
+            <language>en</language>
+            <name>x_snc_pricing_an_0_analysis</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-10 16:04:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de0f5f7087cc9110ea0842609bbb350c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-10 16:04:07</sys_updated_on>
+            <value>search_master</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pros_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No Match</label>
+            <language>en</language>
+            <name>x_snc_pricing_an_0_analysis</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-10 16:04:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d60f5f7087cc9110ea0842609bbb3518</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-10 16:04:07</sys_updated_on>
+            <value>no_match</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pros_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Record Found - Data Different</label>
+            <language>en</language>
+            <name>x_snc_pricing_an_0_analysis</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-10 16:04:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a0f5f7087cc9110ea0842609bbb3510</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-10 16:04:07</sys_updated_on>
+            <value>record_found_data_different</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pros_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Match</label>
+            <language>en</language>
+            <name>x_snc_pricing_an_0_analysis</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-10 16:04:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d20f5f7087cc9110ea0842609bbb351c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-10 16:04:07</sys_updated_on>
+            <value>match</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

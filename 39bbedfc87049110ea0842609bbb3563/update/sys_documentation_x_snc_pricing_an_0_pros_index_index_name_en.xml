@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="index_name" label="INDEX_NAME" language="en" table="x_snc_pricing_an_0_pros_index">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>index_name</element>
+            <help/>
+            <hint/>
+            <label>INDEX_NAME</label>
+            <language>en</language>
+            <name>x_snc_pricing_an_0_pros_index</name>
+            <plural>INDEX_NAMEs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-10 08:12:28</sys_created_on>
+            <sys_id>d513317c87449110ea0842609bbb35b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>INDEX_NAME</sys_name>
+            <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_pricing_an_0_pros_index_index_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-10 08:12:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

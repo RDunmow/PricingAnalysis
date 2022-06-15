@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer">
+    <sys_robust_import_set_transformer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <batch_size>10</batch_size>
+        <description>RTE definition for Market Quote</description>
+        <name>Market Quote_rte_ihub</name>
+        <properties/>
+        <robust_transform_engine display_value="Market Quote_etl_ihub">3d6279f887449110ea0842609bbb358a</robust_transform_engine>
+        <source_table>x_snc_pricing_an_0_ihub_import_13fce97087449110ea0842609bbb35f7</source_table>
+        <sys_class_name>sys_robust_import_set_transformer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-10 08:09:30</sys_created_on>
+        <sys_id>f56279f887449110ea0842609bbb358d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Market Quote_rte_ihub</sys_name>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name>sys_robust_import_set_transformer_f56279f887449110ea0842609bbb358d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-10 08:09:30</sys_updated_on>
+        <verbose>false</verbose>
+    </sys_robust_import_set_transformer>
+</record_update>
