@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_snc_pricing_an_0_pros_index" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Pros Index - Default view" name="x_snc_pricing_an_0_pros_index" related_list="NULL" sys_domain="global" view="Default view">46edf94987d4d510ea0842609bbb350b</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_snc_pricing_an_0_market_data_import.pros_record</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-23 13:53:57</sys_created_on>
+            <sys_id>c2edf94987d4d510ea0842609bbb350d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-23 13:53:57</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Pros Index - Default view" name="x_snc_pricing_an_0_pros_index" related_list="NULL" sys_domain="global" view="Default view">46edf94987d4d510ea0842609bbb350b</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_snc_pricing_an_0_refinitiv_data.pros_record</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-23 13:53:57</sys_created_on>
+            <sys_id>4eedf94987d4d510ea0842609bbb350d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-23 13:53:57</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Pros Index - Default view</calculated_name>
+            <filter/>
+            <name>x_snc_pricing_an_0_pros_index</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-23 13:53:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>46edf94987d4d510ea0842609bbb350b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Pros Index - Default view</sys_name>
+            <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+            <sys_update_name>sys_ui_related_x_snc_pricing_an_0_pros_index_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-23 13:53:57</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

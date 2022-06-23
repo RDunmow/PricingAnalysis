@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>sap_to_refinitiv</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-23 16:00:56</sys_created_on>
+        <sys_id>52fa1a098798d510ea0842609bbb35cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SAP to Refinitiv</sys_name>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name>sys_ui_view_52fa1a098798d510ea0842609bbb35cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-23 16:00:56</sys_updated_on>
+        <title>SAP to Refinitiv</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

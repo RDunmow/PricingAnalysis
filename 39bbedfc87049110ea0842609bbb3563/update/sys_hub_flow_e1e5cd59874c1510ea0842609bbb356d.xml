@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <internal_name>slice_pros_index_name</internal_name>
+        <label_cache>[{"name":"4fefbe2d-ebc8-40d7-8de8-5de89b1bdedd.Records","label":"2 - Look Up Records➛Pros Index Records","reference":"x_snc_pricing_an_0_pros_index","reference_display":"Pros Index Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4fefbe2d-ebc8-40d7-8de8-5de89b1bdedd.Table","label":"2 - Look Up Records➛Pros Index Table","reference":"x_snc_pricing_an_0_pros_index","reference_display":"Pros Index Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4fefbe2d-ebc8-40d7-8de8-5de89b1bdedd.Count","label":"2 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4fefbe2d-ebc8-40d7-8de8-5de89b1bdedd.__action_status__","label":"2 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4fefbe2d-ebc8-40d7-8de8-5de89b1bdedd.__dont_treat_as_error__","label":"2 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb90055a-a149-44d0-b8c6-f5f33243ade6.item","label":"3 - For Each➛Pros Index Record","reference":"x_snc_pricing_an_0_pros_index","reference_display":"Pros Index Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"eb90055a-a149-44d0-b8c6-f5f33243ade6.item.index_name","label":"3 - For Each➛Pros Index Record➛INDEX_NAME","reference":"","reference_display":"INDEX_NAME","type":"string","base_type":"string","parent_table_name":"x_snc_pricing_an_0_pros_index","column_name":"index_name"},{"name":"flow_variable.main_index","label":"Flow Variables➛Main Index","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d67a4c76-93d9-4d68-9724-1ae8d0da74b5"}},{"name":"flow_variable.index_name","label":"Flow Variables➛Index Name","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"8e8b43b9-6295-465b-a5a7-fe1c5221f84f"}},{"name":"831a1338-2c74-4e0a-8e38-188a0f6f4f97.record","label":"6 - Update Record➛Pros Index Record","reference":"x_snc_pricing_an_0_pros_index","reference_display":"Pros Index Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"831a1338-2c74-4e0a-8e38-188a0f6f4f97.table_name","label":"6 - Update Record➛Pros Index Table","reference":"x_snc_pricing_an_0_pros_index","reference_display":"Pros Index Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"831a1338-2c74-4e0a-8e38-188a0f6f4f97.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"831a1338-2c74-4e0a-8e38-188a0f6f4f97.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.pre_index","label":"Flow Variables➛Pre Index","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"aa4bb019-05f8-49b9-b5c7-180095593cd4"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Slice Pros Index Name</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:12:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e1e5cd59874c1510ea0842609bbb356d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Slice Pros Index Name</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name>sys_hub_flow_e1e5cd59874c1510ea0842609bbb356d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-23 11:19:04</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=e1e5cd59874c1510ea0842609bbb356d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e1e5cd59874c1510ea0842609bbb356d"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=e1e5cd59874c1510ea0842609bbb356d^sys_idNOT IN95b7891d874c1510ea0842609bbb35fc"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Slice Pros Index Name">e1e5cd59874c1510ea0842609bbb356d</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:55</sys_created_on>
+        <sys_id>95b7891d874c1510ea0842609bbb35fc</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-23 11:19:03</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=95b7891d874c1510ea0842609bbb35fc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>95b7891d874c1510ea0842609bbb35fc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:55</sys_created_on>
+        <sys_id>11b7891d874c1510ea0842609bbb35fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:19:55</sys_updated_on>
+        <value>2022-06-11 19:00:00</value>
+        <variable display_value="Run in">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_0a76e504c32222002841b63b12d3aeac^id=95b7891d874c1510ea0842609bbb35fc"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=e1e5cd59874c1510ea0842609bbb356d"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e1e5cd59874c1510ea0842609bbb356d^sys_idNOT INade5cd59874c1510ea0842609bbb356d"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e1e5cd59874c1510ea0842609bbb356d</id>
+        <name>Slice Pros Index Name</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:12:01</sys_created_on>
+        <sys_id>ade5cd59874c1510ea0842609bbb356d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:12:01</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ade5cd59874c1510ea0842609bbb356d"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=e1e5cd59874c1510ea0842609bbb356d"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=e1e5cd59874c1510ea0842609bbb356d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e1e5cd59874c1510ea0842609bbb356d"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=e1e5cd59874c1510ea0842609bbb356d^sys_idNOT INa9b7c91d874c1510ea0842609bbb351e,e5b7c91d874c1510ea0842609bbb353d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Slice Pros Index Name">e1e5cd59874c1510ea0842609bbb356d</flow>
+        <order>2</order>
+        <parent_ui_id>17318441-1848-48c6-8a1b-2ebeb5cd78a7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:56</sys_created_on>
+        <sys_id>a9b7c91d874c1510ea0842609bbb351e</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-23 11:19:04</sys_updated_on>
+        <ui_id>4fefbe2d-ebc8-40d7-8de8-5de89b1bdedd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a9b7c91d874c1510ea0842609bbb351e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a9b7c91d874c1510ea0842609bbb351e</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:20:07</sys_created_on>
+        <sys_id>10c78d1d874c1510ea0842609bbb357c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:20:07</sys_updated_on>
+        <value>10</value>
+        <variable display_value="Max Results">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a9b7c91d874c1510ea0842609bbb351e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:56</sys_created_on>
+        <sys_id>a5b7c91d874c1510ea0842609bbb3521</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:19:56</sys_updated_on>
+        <value>x_snc_pricing_an_0_pros_index</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a9b7c91d874c1510ea0842609bbb351e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:56</sys_created_on>
+        <sys_id>e1b7c91d874c1510ea0842609bbb3521</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:26:12</sys_updated_on>
+        <value>processed=false</value>
+        <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=a9b7c91d874c1510ea0842609bbb351e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a9b7c91d874c1510ea0842609bbb351e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a9b7c91d874c1510ea0842609bbb351e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Slice Pros Index Name">e1e5cd59874c1510ea0842609bbb356d</flow>
+        <order>6</order>
+        <parent_ui_id>eb90055a-a149-44d0-b8c6-f5f33243ade6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:56</sys_created_on>
+        <sys_id>e5b7c91d874c1510ea0842609bbb353d</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-23 11:19:04</sys_updated_on>
+        <ui_id>831a1338-2c74-4e0a-8e38-188a0f6f4f97</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e5b7c91d874c1510ea0842609bbb353d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e5b7c91d874c1510ea0842609bbb353d</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:56</sys_created_on>
+        <sys_id>65b7c91d874c1510ea0842609bbb353f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:19:56</sys_updated_on>
+        <value>x_snc_pricing_an_0_pros_index</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e5b7c91d874c1510ea0842609bbb353d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e5b7c91d874c1510ea0842609bbb353d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:56</sys_created_on>
+        <sys_id>21b7c91d874c1510ea0842609bbb353f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:19:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{eb90055a-a149-44d0-b8c6-f5f33243ade6.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e5b7c91d874c1510ea0842609bbb353d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:56</sys_created_on>
+        <sys_id>6db7c91d874c1510ea0842609bbb353e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:19:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e5b7c91d874c1510ea0842609bbb353d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:56</sys_created_on>
+        <sys_id>e1b7c91d874c1510ea0842609bbb353f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:19:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>index_name_prefix={{flow_variable.pre_index}}^index_name_main={{flow_variable.main_index}}^processed=true</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e5b7c91d874c1510ea0842609bbb353d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e5b7c91d874c1510ea0842609bbb353d"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=e1e5cd59874c1510ea0842609bbb356d"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=e1e5cd59874c1510ea0842609bbb356d^sys_idNOT IN2db7c91d874c1510ea0842609bbb3526,552905dd874c1510ea0842609bbb35bc,6db7c91d874c1510ea0842609bbb3536,e5b7c91d874c1510ea0842609bbb3522"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">65b7c91d874c1510ea0842609bbb3526</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Slice Pros Index Name">e1e5cd59874c1510ea0842609bbb356d</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>index_name</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>eb90055a-a149-44d0-b8c6-f5f33243ade6</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:56</sys_created_on>
+        <sys_id>2db7c91d874c1510ea0842609bbb3526</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-23 11:19:04</sys_updated_on>
+        <ui_id>63869634-00b0-4cc4-8bd5-e12b3ab133f9</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2db7c91d874c1510ea0842609bbb3526"/>
+    <sys_element_mapping action="delete_multiple" query="id=2db7c91d874c1510ea0842609bbb3526"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>index_name</field>
+        <id>2db7c91d874c1510ea0842609bbb3526</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:56</sys_created_on>
+        <sys_id>61b7c91d874c1510ea0842609bbb3536</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:19:56</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_e1e5cd59874c1510ea0842609bbb356d</table>
+        <value>{{eb90055a-a149-44d0-b8c6-f5f33243ade6.item.index_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2db7c91d874c1510ea0842609bbb3526"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2db7c91d874c1510ea0842609bbb3526"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">992905dd874c1510ea0842609bbb35bb</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Slice Pros Index Name">e1e5cd59874c1510ea0842609bbb356d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:26:12</sys_created_on>
+        <sys_id>552905dd874c1510ea0842609bbb35bc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-23 11:19:04</sys_updated_on>
+        <ui_id>17318441-1848-48c6-8a1b-2ebeb5cd78a7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=552905dd874c1510ea0842609bbb35bc"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_e1e5cd59874c1510ea0842609bbb356d^id=552905dd874c1510ea0842609bbb35bc"/>
+    <sys_element_mapping action="delete_multiple" query="id=552905dd874c1510ea0842609bbb35bc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>552905dd874c1510ea0842609bbb35bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:26:12</sys_created_on>
+        <sys_id>192905dd874c1510ea0842609bbb35cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:26:12</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_eaeb040687210300e6c2c88fc0e3ec89</table>
+        <value>{{4fefbe2d-ebc8-40d7-8de8-5de89b1bdedd.Count}}=0</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=552905dd874c1510ea0842609bbb35bc"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=552905dd874c1510ea0842609bbb35bc"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a5b7c91d874c1510ea0842609bbb3536</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Slice Pros Index Name">e1e5cd59874c1510ea0842609bbb356d</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>pre_index,main_index</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>eb90055a-a149-44d0-b8c6-f5f33243ade6</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:56</sys_created_on>
+        <sys_id>6db7c91d874c1510ea0842609bbb3536</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-23 11:19:04</sys_updated_on>
+        <ui_id>abac68c0-a6fd-407c-b002-50f332e8d03f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6db7c91d874c1510ea0842609bbb3536"/>
+    <sys_element_mapping action="delete_multiple" query="id=6db7c91d874c1510ea0842609bbb3536"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>main_index</field>
+        <id>6db7c91d874c1510ea0842609bbb3536</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:56</sys_created_on>
+        <sys_id>a9b7c91d874c1510ea0842609bbb3539</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:19:56</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_e1e5cd59874c1510ea0842609bbb356d</table>
+        <value>{{fd_transform:8aa41544-0395-42c9-9f87-855861fa1e6b}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pre_index</field>
+        <id>6db7c91d874c1510ea0842609bbb3536</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:56</sys_created_on>
+        <sys_id>e5b7c91d874c1510ea0842609bbb3539</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:23:32</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_e1e5cd59874c1510ea0842609bbb356d</table>
+        <value>{{fd_transform:ec385d65-9670-45dc-afd3-158f69783dc6}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6db7c91d874c1510ea0842609bbb3536"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6db7c91d874c1510ea0842609bbb3536"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2db7c91d874c1510ea0842609bbb3521</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Slice Pros Index Name">e1e5cd59874c1510ea0842609bbb356d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>17318441-1848-48c6-8a1b-2ebeb5cd78a7</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:56</sys_created_on>
+        <sys_id>e5b7c91d874c1510ea0842609bbb3522</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-23 11:19:04</sys_updated_on>
+        <ui_id>eb90055a-a149-44d0-b8c6-f5f33243ade6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e5b7c91d874c1510ea0842609bbb3522"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_e1e5cd59874c1510ea0842609bbb356d^id=e5b7c91d874c1510ea0842609bbb3522"/>
+    <sys_element_mapping action="delete_multiple" query="id=e5b7c91d874c1510ea0842609bbb3522"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>e5b7c91d874c1510ea0842609bbb3522</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:56</sys_created_on>
+        <sys_id>adb7c91d874c1510ea0842609bbb3525</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:19:56</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{4fefbe2d-ebc8-40d7-8de8-5de89b1bdedd.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e5b7c91d874c1510ea0842609bbb3522"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e5b7c91d874c1510ea0842609bbb3522"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e1e5cd59874c1510ea0842609bbb356d^sys_idNOT IN25b7c91d874c1510ea0842609bbb3542,61b7c91d874c1510ea0842609bbb3542,9a88059d874c1510ea0842609bbb3593,a9b7c91d874c1510ea0842609bbb3541,d288059d874c1510ea0842609bbb3593,e5b7c91d874c1510ea0842609bbb3542"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e1e5cd59874c1510ea0842609bbb356d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.index_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:56</sys_created_on>
+        <sys_id>25b7c91d874c1510ea0842609bbb3542</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:19:56</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>8aa41544-0395-42c9-9f87-855861fa1e6b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e1e5cd59874c1510ea0842609bbb356d</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>af7d84bb-8de4-4c69-b6a9-5cc8e7c1f638</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:56</sys_created_on>
+        <sys_id>61b7c91d874c1510ea0842609bbb3542</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:19:56</sys_updated_on>
+        <transform_compositions>[{"id":"413bf6c573533300b61e66476bf6a741","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"start_index","label":"Start Index","order":0,"attributes":{"min_value":"0","max_value":"999"},"value":"0","type":"integer","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]},{"id":null,"name":"end_index","label":"End Index","order":1,"attributes":{"min_value":"0"},"value":"4","type":"integer","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="substring">77faf6c573533300b61e66476bf6a7ba</transform_definition_id>
+        <ui_id>2d6378ae-7da2-4e8b-bce6-42c15a03cf3b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e1e5cd59874c1510ea0842609bbb356d</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>ec385d65-9670-45dc-afd3-158f69783dc6</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:23:32</sys_created_on>
+        <sys_id>9a88059d874c1510ea0842609bbb3593</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:23:32</sys_updated_on>
+        <transform_compositions>[{"id":"413bf6c573533300b61e66476bf6a741","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"start_index","label":"Start Index","order":0,"attributes":{"min_value":"0","max_value":"999"},"value":"0","type":"integer","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]},{"id":null,"name":"end_index","label":"End Index","order":1,"attributes":{"min_value":"0"},"value":"4","type":"integer","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="substring">77faf6c573533300b61e66476bf6a7ba</transform_definition_id>
+        <ui_id>4523acf9-f613-429a-b939-920328ec7266</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e1e5cd59874c1510ea0842609bbb356d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.main_index}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:56</sys_created_on>
+        <sys_id>a9b7c91d874c1510ea0842609bbb3541</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:19:56</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>af7d84bb-8de4-4c69-b6a9-5cc8e7c1f638</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e1e5cd59874c1510ea0842609bbb356d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.index_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:23:32</sys_created_on>
+        <sys_id>d288059d874c1510ea0842609bbb3593</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:23:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ec385d65-9670-45dc-afd3-158f69783dc6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e1e5cd59874c1510ea0842609bbb356d</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>8aa41544-0395-42c9-9f87-855861fa1e6b</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:56</sys_created_on>
+        <sys_id>e5b7c91d874c1510ea0842609bbb3542</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:19:56</sys_updated_on>
+        <transform_compositions>[{"id":"413bf6c573533300b61e66476bf6a741","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"start_index","label":"Start Index","order":0,"attributes":{"min_value":"0","max_value":"999"},"value":"5","type":"integer","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]},{"id":null,"name":"end_index","label":"End Index","order":1,"attributes":{"min_value":"0"},"value":"","type":"integer","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="substring">77faf6c573533300b61e66476bf6a7ba</transform_definition_id>
+        <ui_id>692d5e11-d9a1-4755-b32b-cb8e986ed8d0</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=e1e5cd59874c1510ea0842609bbb356d^sys_idNOT IN19b7c91d874c1510ea0842609bbb3507,59b7891d874c1510ea0842609bbb35ff,91b7c91d874c1510ea0842609bbb3504"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d67a4c76-93d9-4d68-9724-1ae8d0da74b5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>main_index</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Main Index</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Slice Pros Index Name">e1e5cd59874c1510ea0842609bbb356d</model>
+        <model_id>e1e5cd59874c1510ea0842609bbb356d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_e1e5cd59874c1510ea0842609bbb356d</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:55</sys_created_on>
+        <sys_id>19b7c91d874c1510ea0842609bbb3507</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Main Index</sys_name>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_19b7c91d874c1510ea0842609bbb3507</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:19:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=8e8b43b9-6295-465b-a5a7-fe1c5221f84f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>index_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Index Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Slice Pros Index Name">e1e5cd59874c1510ea0842609bbb356d</model>
+        <model_id>e1e5cd59874c1510ea0842609bbb356d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_e1e5cd59874c1510ea0842609bbb356d</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:55</sys_created_on>
+        <sys_id>59b7891d874c1510ea0842609bbb35ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Index Name</sys_name>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_59b7891d874c1510ea0842609bbb35ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:19:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=aa4bb019-05f8-49b9-b5c7-180095593cd4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>pre_index</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Pre Index</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Slice Pros Index Name">e1e5cd59874c1510ea0842609bbb356d</model>
+        <model_id>e1e5cd59874c1510ea0842609bbb356d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_e1e5cd59874c1510ea0842609bbb356d</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-11 18:19:55</sys_created_on>
+        <sys_id>91b7c91d874c1510ea0842609bbb3504</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pre Index</sys_name>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_91b7c91d874c1510ea0842609bbb3504</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-11 18:19:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e1e5cd59874c1510ea0842609bbb356d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_e1e5cd59874c1510ea0842609bbb356d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_e1e5cd59874c1510ea0842609bbb356d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_e1e5cd59874c1510ea0842609bbb356d"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=e1e5cd59874c1510ea0842609bbb356d"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=e1e5cd59874c1510ea0842609bbb356d"/>
+</record_update>
