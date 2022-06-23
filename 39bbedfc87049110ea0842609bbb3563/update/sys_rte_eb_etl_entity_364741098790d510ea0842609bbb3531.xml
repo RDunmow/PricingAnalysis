@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_entity">
+    <sys_rte_eb_etl_entity action="INSERT_OR_UPDATE">
+        <child_id_field/>
+        <name>IHUB_TARGET_TEMP_x_snc_pricing_an_0_refinitiv_data</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>Temp_x_snc_pricing_an_0_refinitiv_data</path>
+        <run_business_rules>false</run_business_rules>
+        <synchronize_inserts>false</synchronize_inserts>
+        <sys_class_name>sys_rte_eb_etl_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-23 09:55:20</sys_created_on>
+        <sys_id>364741098790d510ea0842609bbb3531</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IHUB_TARGET_TEMP_x_snc_pricing_an_0_refinitiv_data</sys_name>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Refinitiv Data Import_etl_ihub">1bf689098790d510ea0842609bbb353b</sys_rte_eb_definition>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_entity_364741098790d510ea0842609bbb3531</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-23 09:55:20</sys_updated_on>
+        <table/>
+    </sys_rte_eb_etl_entity>
+</record_update>

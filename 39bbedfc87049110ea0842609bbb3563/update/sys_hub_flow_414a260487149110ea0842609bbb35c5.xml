@@ -1,0 +1,1589 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <internal_name>clean_not_required_sap_indicies</internal_name>
+        <label_cache>[{"name":"492d860c-dbde-42f8-8c02-20fab7ded6a5.record","label":"1 - Update Record➛Pricing Job Record","reference":"x_snc_pricing_an_0_pricing_job","reference_display":"Pricing Job Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"492d860c-dbde-42f8-8c02-20fab7ded6a5.table_name","label":"1 - Update Record➛Pricing Job Table","reference":"x_snc_pricing_an_0_pricing_job","reference_display":"Pricing Job Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"492d860c-dbde-42f8-8c02-20fab7ded6a5.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"492d860c-dbde-42f8-8c02-20fab7ded6a5.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Pricing Job Record","reference":"x_snc_pricing_an_0_pricing_job","reference_display":"Pricing Job","type":"reference","base_type":"reference","attributes":{}},{"name":"c70e9256-8cc9-425e-b577-e305a169d5dd.Records","label":"3 - Look Up Records➛SAP Data Records","reference":"x_snc_pricing_an_0_market_data_import","reference_display":"SAP Data Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c70e9256-8cc9-425e-b577-e305a169d5dd.Table","label":"3 - Look Up Records➛SAP Data Table","reference":"x_snc_pricing_an_0_market_data_import","reference_display":"SAP Data Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c70e9256-8cc9-425e-b577-e305a169d5dd.Count","label":"3 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c70e9256-8cc9-425e-b577-e305a169d5dd.__action_status__","label":"3 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"c70e9256-8cc9-425e-b577-e305a169d5dd.__dont_treat_as_error__","label":"3 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Updated_1.current.process_date","label":"Trigger - Record Updated➛Pricing Job Record➛Process Date","reference":"","reference_display":"Process Date","type":"string","base_type":"string","parent_table_name":"x_snc_pricing_an_0_pricing_job","column_name":"process_date"},{"name":"f0e5b90d-f5a9-4c1e-bf3d-778237b76244.item","label":"4 - For Each➛SAP Data Record","reference":"x_snc_pricing_an_0_market_data_import","reference_display":"SAP Data Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"e84149de-228c-4b82-af62-89aff5fbfea0.record","label":"5 - Update Record➛SAP Data Record","reference":"x_snc_pricing_an_0_market_data_import","reference_display":"SAP Data Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e84149de-228c-4b82-af62-89aff5fbfea0.table_name","label":"5 - Update Record➛SAP Data Table","reference":"x_snc_pricing_an_0_market_data_import","reference_display":"SAP Data Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e84149de-228c-4b82-af62-89aff5fbfea0.__action_status__","label":"5 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"e84149de-228c-4b82-af62-89aff5fbfea0.__dont_treat_as_error__","label":"5 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"695522c9-1d81-4687-8bd6-d8536bc5aab1.Record","label":"8 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"695522c9-1d81-4687-8bd6-d8536bc5aab1.Table","label":"8 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"695522c9-1d81-4687-8bd6-d8536bc5aab1.status","label":"8 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"695522c9-1d81-4687-8bd6-d8536bc5aab1.error_message","label":"8 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"695522c9-1d81-4687-8bd6-d8536bc5aab1.__action_status__","label":"8 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"695522c9-1d81-4687-8bd6-d8536bc5aab1.__dont_treat_as_error__","label":"8 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"a361f2e7-f8a5-468e-8990-6b7f0b8f8a01.Records","label":"8 - Look Up Records➛SAP Data Records","reference":"x_snc_pricing_an_0_market_data_import","reference_display":"SAP Data Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a361f2e7-f8a5-468e-8990-6b7f0b8f8a01.Table","label":"8 - Look Up Records➛SAP Data Table","reference":"x_snc_pricing_an_0_market_data_import","reference_display":"SAP Data Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a361f2e7-f8a5-468e-8990-6b7f0b8f8a01.Count","label":"8 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a361f2e7-f8a5-468e-8990-6b7f0b8f8a01.__action_status__","label":"8 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"a361f2e7-f8a5-468e-8990-6b7f0b8f8a01.__dont_treat_as_error__","label":"8 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"492d860c-dbde-42f8-8c02-20fab7ded6a5.record.process_date","label":"1 - Update Record➛Pricing Job Record➛Process Date","reference":"","reference_display":"Process Date","type":"string","base_type":"string","parent_table_name":"x_snc_pricing_an_0_pricing_job","column_name":"process_date"},{"name":"bb1958b2-830e-4ee0-8499-c38f4feaabaa.item","label":"9 - For Each➛SAP Data Record","reference":"x_snc_pricing_an_0_market_data_import","reference_display":"SAP Data Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"06a1ba3b-bb0a-4239-baff-e31f59a3ff0c.Record","label":"10 - Look Up Record➛Pros Index Record","reference":"x_snc_pricing_an_0_pros_index","reference_display":"Pros Index Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"06a1ba3b-bb0a-4239-baff-e31f59a3ff0c.Table","label":"10 - Look Up Record➛Pros Index Table","reference":"x_snc_pricing_an_0_pros_index","reference_display":"Pros Index Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"06a1ba3b-bb0a-4239-baff-e31f59a3ff0c.status","label":"10 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"06a1ba3b-bb0a-4239-baff-e31f59a3ff0c.error_message","label":"10 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"06a1ba3b-bb0a-4239-baff-e31f59a3ff0c.__action_status__","label":"10 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"06a1ba3b-bb0a-4239-baff-e31f59a3ff0c.__dont_treat_as_error__","label":"10 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"bb1958b2-830e-4ee0-8499-c38f4feaabaa.item.quotation_no","label":"9 - For Each➛SAP Data Record➛Quotation no.     ","reference":"","reference_display":"Quotation no.     ","type":"string","base_type":"string","parent_table_name":"x_snc_pricing_an_0_market_data_import","column_name":"quotation_no"},{"name":"8abc74fe-cc4a-4c2e-b6e4-123313c4c760.record","label":"12 - Update Record➛SAP Data Record","reference":"x_snc_pricing_an_0_market_data_import","reference_display":"SAP Data Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8abc74fe-cc4a-4c2e-b6e4-123313c4c760.table_name","label":"12 - Update Record➛SAP Data Table","reference":"x_snc_pricing_an_0_market_data_import","reference_display":"SAP Data Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8abc74fe-cc4a-4c2e-b6e4-123313c4c760.__action_status__","label":"12 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"8abc74fe-cc4a-4c2e-b6e4-123313c4c760.__dont_treat_as_error__","label":"12 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"27091adf-68a1-4426-8933-561d1fe2a9f9.__action_status__","label":"14 - Delete Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"27091adf-68a1-4426-8933-561d1fe2a9f9.__dont_treat_as_error__","label":"14 - Delete Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"87f3fe03-9387-45c2-b8ba-34053c6c6f06.record","label":"21 - Update Record➛Pricing Job Record","reference":"x_snc_pricing_an_0_pricing_job","reference_display":"Pricing Job Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"87f3fe03-9387-45c2-b8ba-34053c6c6f06.table_name","label":"21 - Update Record➛Pricing Job Table","reference":"x_snc_pricing_an_0_pricing_job","reference_display":"Pricing Job Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"87f3fe03-9387-45c2-b8ba-34053c6c6f06.__action_status__","label":"21 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"87f3fe03-9387-45c2-b8ba-34053c6c6f06.__dont_treat_as_error__","label":"21 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"0dbd476e-9c22-4289-8530-ef7cf441c87a.Records","label":"17 - Look Up Records➛SAP Data Records","reference":"x_snc_pricing_an_0_market_data_import","reference_display":"SAP Data Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0dbd476e-9c22-4289-8530-ef7cf441c87a.Table","label":"17 - Look Up Records➛SAP Data Table","reference":"x_snc_pricing_an_0_market_data_import","reference_display":"SAP Data Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0dbd476e-9c22-4289-8530-ef7cf441c87a.Count","label":"17 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0dbd476e-9c22-4289-8530-ef7cf441c87a.__action_status__","label":"17 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"0dbd476e-9c22-4289-8530-ef7cf441c87a.__dont_treat_as_error__","label":"17 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"a5c53156-7061-48f1-bcff-5ccc08386bd6.item","label":"18 - For Each➛SAP Data Record","reference":"x_snc_pricing_an_0_market_data_import","reference_display":"SAP Data","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"eb55951f-5b0b-4bb0-a02a-a8a77d846789.record","label":"19 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb55951f-5b0b-4bb0-a02a-a8a77d846789.table_name","label":"19 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb55951f-5b0b-4bb0-a02a-a8a77d846789.__action_status__","label":"19 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"eb55951f-5b0b-4bb0-a02a-a8a77d846789.__dont_treat_as_error__","label":"19 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Clean not required SAP indicies</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:33:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>414a260487149110ea0842609bbb35c5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Clean not required SAP indicies</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name>sys_hub_flow_414a260487149110ea0842609bbb35c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:54</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=414a260487149110ea0842609bbb35c5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=414a260487149110ea0842609bbb35c5"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=414a260487149110ea0842609bbb35c5^sys_idNOT IN762e628887149110ea0842609bbb3538"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Clean not required SAP indicies">414a260487149110ea0842609bbb35c5</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:52</sys_created_on>
+        <sys_id>762e628887149110ea0842609bbb3538</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:52</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=762e628887149110ea0842609bbb3538"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>762e628887149110ea0842609bbb3538</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:52</sys_created_on>
+        <sys_id>362e628887149110ea0842609bbb3539</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:52</sys_updated_on>
+        <value>every</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>762e628887149110ea0842609bbb3538</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:52</sys_created_on>
+        <sys_id>be2e628887149110ea0842609bbb3539</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:52</sys_updated_on>
+        <value>x_snc_pricing_an_0_pricing_job</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>762e628887149110ea0842609bbb3538</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:52</sys_created_on>
+        <sys_id>fa2e628887149110ea0842609bbb3539</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:52</sys_updated_on>
+        <value>statusCHANGESTOexecute^job_type=clean_non_required_sap_index</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=762e628887149110ea0842609bbb3538"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=414a260487149110ea0842609bbb35c5"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=414a260487149110ea0842609bbb35c5^sys_idNOT IN0d4a260487149110ea0842609bbb35c5"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>414a260487149110ea0842609bbb35c5</id>
+        <name>Clean not required SAP indicies</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:33:49</sys_created_on>
+        <sys_id>0d4a260487149110ea0842609bbb35c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:33:49</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=0d4a260487149110ea0842609bbb35c5"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=414a260487149110ea0842609bbb35c5^sys_idNOT IN3e2e628887149110ea0842609bbb3532,6a2e628887149110ea0842609bbb3504,aa2e628887149110ea0842609bbb3509"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Clean not required SAP indicies">414a260487149110ea0842609bbb35c5</model>
+        <model_id>414a260487149110ea0842609bbb35c5</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_414a260487149110ea0842609bbb35c5</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:52</sys_created_on>
+        <sys_id>3e2e628887149110ea0842609bbb3532</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Clean not required SAP indicies">414a260487149110ea0842609bbb35c5</model>
+        <model_id>414a260487149110ea0842609bbb35c5</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_414a260487149110ea0842609bbb35c5</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:52</sys_created_on>
+        <sys_id>6a2e628887149110ea0842609bbb3504</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDa62e6288b81491108833e5bccdd1d601,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Clean not required SAP indicies">414a260487149110ea0842609bbb35c5</model>
+        <model_id>414a260487149110ea0842609bbb35c5</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_414a260487149110ea0842609bbb35c5</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:52</sys_created_on>
+        <sys_id>aa2e628887149110ea0842609bbb3509</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=414a260487149110ea0842609bbb35c5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=414a260487149110ea0842609bbb35c5"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=414a260487149110ea0842609bbb35c5^sys_idNOT IN0b2e628887149110ea0842609bbb3583,4f2e628887149110ea0842609bbb359d,7e2e628887149110ea0842609bbb3578,872e628887149110ea0842609bbb3595,b62e628887149110ea0842609bbb356d,ba2e628887149110ea0842609bbb354c,c72e628887149110ea0842609bbb35a3,cf2e628887149110ea0842609bbb358a,f22e628887149110ea0842609bbb3556,fa2e628887149110ea0842609bbb353e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Clean not required SAP indicies">414a260487149110ea0842609bbb35c5</flow>
+        <order>12</order>
+        <parent_ui_id>7982114d-04d1-4e4c-afad-0c3441ca3fce</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>0b2e628887149110ea0842609bbb3583</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <ui_id>8abc74fe-cc4a-4c2e-b6e4-123313c4c760</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0b2e628887149110ea0842609bbb3583"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0b2e628887149110ea0842609bbb3583</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>072e628887149110ea0842609bbb3585</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <value>x_snc_pricing_an_0_market_data_import</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0b2e628887149110ea0842609bbb3583</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>432e628887149110ea0842609bbb3585</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <value>status=analyse</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0b2e628887149110ea0842609bbb3583"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>0b2e628887149110ea0842609bbb3583</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>0f2e628887149110ea0842609bbb3584</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{bb1958b2-830e-4ee0-8499-c38f4feaabaa.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>0b2e628887149110ea0842609bbb3583</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>4b2e628887149110ea0842609bbb3584</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>0b2e628887149110ea0842609bbb3583</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>cf2e628887149110ea0842609bbb3584</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0b2e628887149110ea0842609bbb3583"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0b2e628887149110ea0842609bbb3583"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Clean not required SAP indicies">414a260487149110ea0842609bbb35c5</flow>
+        <order>19</order>
+        <parent_ui_id>a5c53156-7061-48f1-bcff-5ccc08386bd6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>4f2e628887149110ea0842609bbb359d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <ui_id>eb55951f-5b0b-4bb0-a02a-a8a77d846789</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4f2e628887149110ea0842609bbb359d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4f2e628887149110ea0842609bbb359d</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>4b2e628887149110ea0842609bbb359f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <value>x_snc_pricing_an_0_market_data_import</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4f2e628887149110ea0842609bbb359d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>872e628887149110ea0842609bbb359f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <value>status=new</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4f2e628887149110ea0842609bbb359d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>4f2e628887149110ea0842609bbb359d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>432e628887149110ea0842609bbb359f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{a5c53156-7061-48f1-bcff-5ccc08386bd6.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>4f2e628887149110ea0842609bbb359d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>8f2e628887149110ea0842609bbb359e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>4f2e628887149110ea0842609bbb359d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>072e628887149110ea0842609bbb359f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4f2e628887149110ea0842609bbb359d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4f2e628887149110ea0842609bbb359d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Clean not required SAP indicies">414a260487149110ea0842609bbb35c5</flow>
+        <order>10</order>
+        <parent_ui_id>bb1958b2-830e-4ee0-8499-c38f4feaabaa</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>7e2e628887149110ea0842609bbb3578</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <ui_id>06a1ba3b-bb0a-4239-baff-e31f59a3ff0c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7e2e628887149110ea0842609bbb3578"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7e2e628887149110ea0842609bbb3578</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>b62e628887149110ea0842609bbb357b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <value>x_snc_pricing_an_0_pros_index</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7e2e628887149110ea0842609bbb3578</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>f22e628887149110ea0842609bbb357b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7e2e628887149110ea0842609bbb3578"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>7e2e628887149110ea0842609bbb3578</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>be2e628887149110ea0842609bbb357a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>index_name_main={{bb1958b2-830e-4ee0-8499-c38f4feaabaa.item.quotation_no}}^effective_time={{Updated_1.current.process_date}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>7e2e628887149110ea0842609bbb3578</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>722e628887149110ea0842609bbb357b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>7e2e628887149110ea0842609bbb3578</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>fa2e628887149110ea0842609bbb357a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7e2e628887149110ea0842609bbb3578"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7e2e628887149110ea0842609bbb3578"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Clean not required SAP indicies">414a260487149110ea0842609bbb35c5</flow>
+        <order>17</order>
+        <parent_ui_id>b47096fa-a3b5-4f7d-ac6b-20904bcf4e02</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>872e628887149110ea0842609bbb3595</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <ui_id>0dbd476e-9c22-4289-8530-ef7cf441c87a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=872e628887149110ea0842609bbb3595"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>872e628887149110ea0842609bbb3595</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>032e628887149110ea0842609bbb3597</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <value>x_snc_pricing_an_0_market_data_import</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=872e628887149110ea0842609bbb3595"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>872e628887149110ea0842609bbb3595</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>cb2e628887149110ea0842609bbb3596</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>effective_date={{Updated_1.current.process_date}}^status=analyse</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>872e628887149110ea0842609bbb3595</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>8f2e628887149110ea0842609bbb3596</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=872e628887149110ea0842609bbb3595"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=872e628887149110ea0842609bbb3595"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Clean not required SAP indicies">414a260487149110ea0842609bbb35c5</flow>
+        <order>8</order>
+        <parent_ui_id>413cd7ad-ca76-4ca9-aee2-00df58f8c20c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>b62e628887149110ea0842609bbb356d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <ui_id>a361f2e7-f8a5-468e-8990-6b7f0b8f8a01</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b62e628887149110ea0842609bbb356d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b62e628887149110ea0842609bbb356d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>322e628887149110ea0842609bbb356f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <value>x_snc_pricing_an_0_market_data_import</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b62e628887149110ea0842609bbb356d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>b62e628887149110ea0842609bbb356d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>fa2e628887149110ea0842609bbb356e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>effective_date={{492d860c-dbde-42f8-8c02-20fab7ded6a5.record.process_date}}^status=new</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>b62e628887149110ea0842609bbb356d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>be2e628887149110ea0842609bbb356e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b62e628887149110ea0842609bbb356d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b62e628887149110ea0842609bbb356d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Clean not required SAP indicies">414a260487149110ea0842609bbb35c5</flow>
+        <order>3</order>
+        <parent_ui_id>761e442b-560e-4645-9950-e4ffeb11abf8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:52</sys_created_on>
+        <sys_id>ba2e628887149110ea0842609bbb354c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <ui_id>c70e9256-8cc9-425e-b577-e305a169d5dd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ba2e628887149110ea0842609bbb354c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ba2e628887149110ea0842609bbb354c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>fa2e628887149110ea0842609bbb354e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <value>x_snc_pricing_an_0_market_data_import</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ba2e628887149110ea0842609bbb354c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>ba2e628887149110ea0842609bbb354c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>b62e628887149110ea0842609bbb354e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>effective_date={{Updated_1.current.process_date}}^status!=new</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>ba2e628887149110ea0842609bbb354c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>7a2e628887149110ea0842609bbb354e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ba2e628887149110ea0842609bbb354c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ba2e628887149110ea0842609bbb354c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Clean not required SAP indicies">414a260487149110ea0842609bbb35c5</flow>
+        <order>21</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>c72e628887149110ea0842609bbb35a3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <ui_id>87f3fe03-9387-45c2-b8ba-34053c6c6f06</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c72e628887149110ea0842609bbb35a3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c72e628887149110ea0842609bbb35a3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>032e628887149110ea0842609bbb35a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <value>status=complete</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c72e628887149110ea0842609bbb35a3</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>c32e628887149110ea0842609bbb35a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <value>x_snc_pricing_an_0_pricing_job</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c72e628887149110ea0842609bbb35a3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>c72e628887149110ea0842609bbb35a3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>cb2e628887149110ea0842609bbb35a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>c72e628887149110ea0842609bbb35a3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>0b2e628887149110ea0842609bbb35a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>c72e628887149110ea0842609bbb35a3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>8f2e628887149110ea0842609bbb35a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c72e628887149110ea0842609bbb35a3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c72e628887149110ea0842609bbb35a3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Clean not required SAP indicies">414a260487149110ea0842609bbb35c5</flow>
+        <order>14</order>
+        <parent_ui_id>c0e3738c-a0c0-442c-9a51-bc8f9f8a6cc9</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>cf2e628887149110ea0842609bbb358a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <ui_id>27091adf-68a1-4426-8933-561d1fe2a9f9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cf2e628887149110ea0842609bbb358a"/>
+    <sys_element_mapping action="delete_multiple" query="id=cf2e628887149110ea0842609bbb358a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>cf2e628887149110ea0842609bbb358a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>472e628887149110ea0842609bbb358c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{bb1958b2-830e-4ee0-8499-c38f4feaabaa.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cf2e628887149110ea0842609bbb358a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cf2e628887149110ea0842609bbb358a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Clean not required SAP indicies">414a260487149110ea0842609bbb35c5</flow>
+        <order>5</order>
+        <parent_ui_id>f0e5b90d-f5a9-4c1e-bf3d-778237b76244</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>f22e628887149110ea0842609bbb3556</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <ui_id>e84149de-228c-4b82-af62-89aff5fbfea0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f22e628887149110ea0842609bbb3556"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f22e628887149110ea0842609bbb3556</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>b62e628887149110ea0842609bbb3564</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <value>x_snc_pricing_an_0_market_data_import</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f22e628887149110ea0842609bbb3556</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>f22e628887149110ea0842609bbb3564</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <value>status=new^=</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f22e628887149110ea0842609bbb3556"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>f22e628887149110ea0842609bbb3556</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>be2e628887149110ea0842609bbb3563</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{f0e5b90d-f5a9-4c1e-bf3d-778237b76244.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>f22e628887149110ea0842609bbb3556</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>fa2e628887149110ea0842609bbb3563</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>f22e628887149110ea0842609bbb3556</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>722e628887149110ea0842609bbb3564</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f22e628887149110ea0842609bbb3556"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f22e628887149110ea0842609bbb3556"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Clean not required SAP indicies">414a260487149110ea0842609bbb35c5</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:52</sys_created_on>
+        <sys_id>fa2e628887149110ea0842609bbb353e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:52</sys_updated_on>
+        <ui_id>492d860c-dbde-42f8-8c02-20fab7ded6a5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fa2e628887149110ea0842609bbb353e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fa2e628887149110ea0842609bbb353e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:52</sys_created_on>
+        <sys_id>3e2e628887149110ea0842609bbb3541</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:52</sys_updated_on>
+        <value>status=running</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fa2e628887149110ea0842609bbb353e</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:52</sys_created_on>
+        <sys_id>fe2e628887149110ea0842609bbb3541</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:52</sys_updated_on>
+        <value>x_snc_pricing_an_0_pricing_job</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fa2e628887149110ea0842609bbb353e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>fa2e628887149110ea0842609bbb353e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:52</sys_created_on>
+        <sys_id>f62e628887149110ea0842609bbb3541</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>fa2e628887149110ea0842609bbb353e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:52</sys_created_on>
+        <sys_id>be2e628887149110ea0842609bbb3540</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>fa2e628887149110ea0842609bbb353e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:52</sys_created_on>
+        <sys_id>ba2e628887149110ea0842609bbb3541</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fa2e628887149110ea0842609bbb353e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fa2e628887149110ea0842609bbb353e"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=414a260487149110ea0842609bbb35c5"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=414a260487149110ea0842609bbb35c5^sys_idNOT IN322e628887149110ea0842609bbb3543,3a2e628887149110ea0842609bbb354f,432e628887149110ea0842609bbb358d,722e628887149110ea0842609bbb3565,cb2e628887149110ea0842609bbb3597,cf2e628887149110ea0842609bbb3585,f22e628887149110ea0842609bbb357c,fa2e628887149110ea0842609bbb356f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">762e628887149110ea0842609bbb3542</block>
+        <comment>Reset SAP Records to New</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Clean not required SAP indicies">414a260487149110ea0842609bbb35c5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:52</sys_created_on>
+        <sys_id>322e628887149110ea0842609bbb3543</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:52</sys_updated_on>
+        <ui_id>761e442b-560e-4645-9950-e4ffeb11abf8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=322e628887149110ea0842609bbb3543"/>
+    <sys_element_mapping action="delete_multiple" query="id=322e628887149110ea0842609bbb3543"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>322e628887149110ea0842609bbb3543</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:52</sys_created_on>
+        <sys_id>ba2e628887149110ea0842609bbb3546</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:52</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_eaeb040687210300e6c2c88fc0e3ec89</table>
+        <value>{{c70e9256-8cc9-425e-b577-e305a169d5dd.Count}}=0</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=322e628887149110ea0842609bbb3543"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=322e628887149110ea0842609bbb3543"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">722e628887149110ea0842609bbb354f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Clean not required SAP indicies">414a260487149110ea0842609bbb35c5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>761e442b-560e-4645-9950-e4ffeb11abf8</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>3a2e628887149110ea0842609bbb354f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <ui_id>f0e5b90d-f5a9-4c1e-bf3d-778237b76244</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3a2e628887149110ea0842609bbb354f"/>
+    <sys_element_mapping action="delete_multiple" query="id=3a2e628887149110ea0842609bbb354f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>3a2e628887149110ea0842609bbb354f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>362e628887149110ea0842609bbb3552</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{c70e9256-8cc9-425e-b577-e305a169d5dd.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=3a2e628887149110ea0842609bbb354f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3a2e628887149110ea0842609bbb354f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">8b2e628887149110ea0842609bbb358c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Clean not required SAP indicies">414a260487149110ea0842609bbb35c5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>16</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>432e628887149110ea0842609bbb358d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <ui_id>b47096fa-a3b5-4f7d-ac6b-20904bcf4e02</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=432e628887149110ea0842609bbb358d"/>
+    <sys_element_mapping action="delete_multiple" query="id=432e628887149110ea0842609bbb358d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>432e628887149110ea0842609bbb358d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>8b2e628887149110ea0842609bbb358f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_eaeb040687210300e6c2c88fc0e3ec89</table>
+        <value>{{0dbd476e-9c22-4289-8530-ef7cf441c87a.Count}}=0</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=432e628887149110ea0842609bbb358d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=432e628887149110ea0842609bbb358d"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">ba2e628887149110ea0842609bbb3564</block>
+        <comment>Now process SAP Records</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Clean not required SAP indicies">414a260487149110ea0842609bbb35c5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>722e628887149110ea0842609bbb3565</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <ui_id>413cd7ad-ca76-4ca9-aee2-00df58f8c20c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=722e628887149110ea0842609bbb3565"/>
+    <sys_element_mapping action="delete_multiple" query="id=722e628887149110ea0842609bbb3565"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>722e628887149110ea0842609bbb3565</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>ba2e628887149110ea0842609bbb3567</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_eaeb040687210300e6c2c88fc0e3ec89</table>
+        <value>{{a361f2e7-f8a5-468e-8990-6b7f0b8f8a01.Count}}=0</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=722e628887149110ea0842609bbb3565"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=722e628887149110ea0842609bbb3565"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">072e628887149110ea0842609bbb3597</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Clean not required SAP indicies">414a260487149110ea0842609bbb35c5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>18</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>b47096fa-a3b5-4f7d-ac6b-20904bcf4e02</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>cb2e628887149110ea0842609bbb3597</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <ui_id>a5c53156-7061-48f1-bcff-5ccc08386bd6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=cb2e628887149110ea0842609bbb3597"/>
+    <sys_element_mapping action="delete_multiple" query="id=cb2e628887149110ea0842609bbb3597"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>cb2e628887149110ea0842609bbb3597</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>032e628887149110ea0842609bbb359a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{0dbd476e-9c22-4289-8530-ef7cf441c87a.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=cb2e628887149110ea0842609bbb3597"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cb2e628887149110ea0842609bbb3597"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">0b2e628887149110ea0842609bbb3585</block>
+        <comment>Didn't find a match, so delete the record</comment>
+        <connected_to>7982114d-04d1-4e4c-afad-0c3441ca3fce</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Clean not required SAP indicies">414a260487149110ea0842609bbb35c5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>13</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>bb1958b2-830e-4ee0-8499-c38f4feaabaa</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>cf2e628887149110ea0842609bbb3585</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <ui_id>c0e3738c-a0c0-442c-9a51-bc8f9f8a6cc9</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=cf2e628887149110ea0842609bbb3585"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=cf2e628887149110ea0842609bbb3585"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cf2e628887149110ea0842609bbb3585"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3e2e628887149110ea0842609bbb357b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Clean not required SAP indicies">414a260487149110ea0842609bbb35c5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>bb1958b2-830e-4ee0-8499-c38f4feaabaa</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>f22e628887149110ea0842609bbb357c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <ui_id>7982114d-04d1-4e4c-afad-0c3441ca3fce</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f22e628887149110ea0842609bbb357c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>f22e628887149110ea0842609bbb357c</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>0b2e628887149110ea0842609bbb357f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <value>Did I find a PROS match</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f22e628887149110ea0842609bbb357c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>f22e628887149110ea0842609bbb357c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>872e628887149110ea0842609bbb357f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{06a1ba3b-bb0a-4239-baff-e31f59a3ff0c.status}}=0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>f22e628887149110ea0842609bbb357c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>c32e628887149110ea0842609bbb357f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f22e628887149110ea0842609bbb357c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f22e628887149110ea0842609bbb357c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">362e628887149110ea0842609bbb356f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Clean not required SAP indicies">414a260487149110ea0842609bbb35c5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>413cd7ad-ca76-4ca9-aee2-00df58f8c20c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>fa2e628887149110ea0842609bbb356f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <ui_id>bb1958b2-830e-4ee0-8499-c38f4feaabaa</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fa2e628887149110ea0842609bbb356f"/>
+    <sys_element_mapping action="delete_multiple" query="id=fa2e628887149110ea0842609bbb356f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>fa2e628887149110ea0842609bbb356f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:53</sys_created_on>
+        <sys_id>322e628887149110ea0842609bbb3572</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:53</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{a361f2e7-f8a5-468e-8990-6b7f0b8f8a01.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=fa2e628887149110ea0842609bbb356f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fa2e628887149110ea0842609bbb356f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=414a260487149110ea0842609bbb35c5"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=414a260487149110ea0842609bbb35c5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_414a260487149110ea0842609bbb35c5^sys_idNOT IN262e628887149110ea0842609bbb3508,2a2e628887149110ea0842609bbb350c,762e628887149110ea0842609bbb3535"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_414a260487149110ea0842609bbb35c5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:52</sys_created_on>
+        <sys_id>262e628887149110ea0842609bbb3508</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_414a260487149110ea0842609bbb35c5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:52</sys_created_on>
+        <sys_id>2a2e628887149110ea0842609bbb350c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_414a260487149110ea0842609bbb35c5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 14:50:52</sys_created_on>
+        <sys_id>762e628887149110ea0842609bbb3535</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 14:50:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_414a260487149110ea0842609bbb35c5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_414a260487149110ea0842609bbb35c5"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_414a260487149110ea0842609bbb35c5"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=414a260487149110ea0842609bbb35c5"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=414a260487149110ea0842609bbb35c5"/>
+</record_update>
