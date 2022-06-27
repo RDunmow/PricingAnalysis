@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Refinitiv Map" max_length="40" name="x_snc_pricing_an_0_refinitiv_map" sizeclass="70" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROS key" max_length="40" name="pros_key" type="string"/>
+        <element label="PROS Main Index" max_length="40" name="pros_main_index" type="string"/>
+        <element label="PROS Pre Index" max_length="40" name="pros_pre_index" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Refinitiv Curve ID" max_length="40" name="refinitiv_curve_id" type="string"/>
+    </element>
+</database>

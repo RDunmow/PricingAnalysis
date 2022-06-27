@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Pricing Job" max_length="40" name="x_snc_pricing_an_0_pricing_job" sizeclass="2" type="collection">
+        <element default="true" label="Clear and Rerun" max_length="40" name="clear_and_rerun" type="boolean"/>
+        <element choice="1" default="sap_analysis" label="Job Type" max_length="40" name="job_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="SAP Analysis" sequence="10" value="sap_analysis"/>
+                <element inactive_on_update="false" label="Pros Analysis" sequence="20" value="pros_analysis"/>
+                <element inactive_on_update="false" label="Clean non-required SAP Index" sequence="30" value="clean_non_required_sap_index"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Process Date" max_length="40" name="process_date" type="string"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="10" value="new"/>
+                <element inactive_on_update="false" label="Execute" sequence="20" value="execute"/>
+                <element inactive_on_update="false" label="Running" sequence="30" value="running"/>
+                <element inactive_on_update="false" label="Complete" sequence="40" value="complete"/>
+            </choice>
+        </element>
+    </element>
+</database>

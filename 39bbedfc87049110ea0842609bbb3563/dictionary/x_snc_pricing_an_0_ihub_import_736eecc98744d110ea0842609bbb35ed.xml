@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Pros Import" max_length="40" name="x_snc_pricing_an_0_ihub_import_736eecc98744d110ea0842609bbb35ed" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CURRENCY_CODE" label="CURRENCY_CODE" max_length="40" name="u_currency_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=EFFECTIVE_TIME" label="EFFECTIVE_TIME" max_length="40" name="u_effective_time" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=INDEX_NAME" label="INDEX_NAME" max_length="40" name="u_index_name" type="string"/>
+        <element attributes="import_attribute_name=PER_QUANTITY" label="PER_QUANTITY" max_length="40" name="u_per_quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=UOM_CODE" label="UOM_CODE" max_length="40" name="u_uom_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=UPDATED_AT" label="UPDATED_AT" max_length="40" name="u_updated_at" type="string"/>
+        <element attributes="import_attribute_name=VALUE" label="VALUE" max_length="15" name="u_value" type="decimal"/>
+    </element>
+</database>

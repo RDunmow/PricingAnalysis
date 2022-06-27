@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>true</is_extendable>
+        <label>Reuters Data</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_snc_pricing_an_0_file_freight</name>
+        <number_ref display_value="FIL">00b339bc87449110ea0842609bbb35f9</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-10 08:15:05</sys_created_on>
+        <sys_id>33a339bc87449110ea0842609bbb3568</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Reuters Data</sys_name>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name>sys_db_object_33a339bc87449110ea0842609bbb3568</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 20:54:54</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</application>
+        <file_path/>
+        <instance_id>7ad629afdb0ac1503050ac44d4961983</instance_id>
+        <instance_name>bppricingdemo</instance_name>
+        <name>sys_db_object_33a339bc87449110ea0842609bbb3568</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>true</actions_access><alter_access>true</alter_access><caller_access/><client_scripts_access>true</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>true</is_extendable><label>Reuters Data</label><live_feed_enabled>false</live_feed_enabled><name>x_snc_pricing_an_0_file_freight</name><number_ref display_value="FIL">00b339bc87449110ea0842609bbb35f9</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-10 08:15:05</sys_created_on><sys_id>33a339bc87449110ea0842609bbb3568</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Reuters Data</sys_name><sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package><sys_policy/><sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope><sys_update_name>sys_db_object_33a339bc87449110ea0842609bbb3568</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-20 20:54:54</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>552965136</payload_hash>
+        <record_name>Reuters Data</record_name>
+        <reverted_from/>
+        <source>39bbedfc87049110ea0842609bbb3565</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 20:54:55</sys_created_on>
+        <sys_id>d771c09c87d89110ea0842609bbb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18182e59d260000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 20:54:55</sys_updated_on>
+        <type>Table</type>
+        <update_guid>5f71c09c54d89110a8cf1667bacd6a93</update_guid>
+        <update_guid_history>5f71c09c54d89110a8cf1667bacd6a93:552965136,7fa339bc964491106214b5a63fd0fdcd:-1301014218,ffa339bcb8449110fbf8e01d92b19ec8:1254500430</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-23 08:08:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>9257f9f84262428ebee1994087aba089</sys_id>
+        <sys_metadata>33a339bc87449110ea0842609bbb3568</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reuters Data</sys_name>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_scope_delete display_value="">9a543899b4234cdc8b7c8dd99554dc01</sys_scope_delete>
+        <sys_update_name>sys_db_object_33a339bc87449110ea0842609bbb3568</sys_update_name>
+        <sys_update_version display_value="sys_db_object_33a339bc87449110ea0842609bbb3568">d771c09c87d89110ea0842609bbb3594</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-23 08:08:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

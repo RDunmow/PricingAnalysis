@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field">
+    <sys_rte_eb_etl_field action="DELETE">
+        <coalesce>false</coalesce>
+        <coercion_action>create</coercion_action>
+        <field>u_value_sn_ihub_pill_uid_1654897958035</field>
+        <name>VALUE_sn_ihub_target_value</name>
+        <sys_class_name>sys_rte_eb_etl_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-10 21:53:16</sys_created_on>
+        <sys_id>78fe6c0d8744d110ea0842609bbb359b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VALUE_sn_ihub_target_value</sys_name>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Pros Import_etl_ihub">49ae600d8744d110ea0842609bbb35d1</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_snc_pricing_an_0_pros_index">b0fe6c0d8744d110ea0842609bbb3587</sys_rte_eb_entity>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_field_78fe6c0d8744d110ea0842609bbb359b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-10 21:53:16</sys_updated_on>
+    </sys_rte_eb_etl_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</application>
+        <file_path/>
+        <instance_id>7ad629afdb0ac1503050ac44d4961983</instance_id>
+        <instance_name>bppricingdemo</instance_name>
+        <name>sys_rte_eb_etl_field_78fe6c0d8744d110ea0842609bbb359b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field"><sys_rte_eb_etl_field action="INSERT_OR_UPDATE"><coalesce>false</coalesce><coercion_action>create</coercion_action><field>u_value_sn_ihub_pill_uid_1654897958035</field><name>VALUE_sn_ihub_target_value</name><sys_class_name>sys_rte_eb_etl_field</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-10 21:53:16</sys_created_on><sys_id>78fe6c0d8744d110ea0842609bbb359b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>VALUE_sn_ihub_target_value</sys_name><sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package><sys_policy/><sys_rte_eb_definition display_value="Pros Import_etl_ihub">49ae600d8744d110ea0842609bbb35d1</sys_rte_eb_definition><sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_snc_pricing_an_0_pros_index">b0fe6c0d8744d110ea0842609bbb3587</sys_rte_eb_entity><sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope><sys_update_name>sys_rte_eb_etl_field_78fe6c0d8744d110ea0842609bbb359b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-10 21:53:16</sys_updated_on></sys_rte_eb_etl_field></record_update>]]></payload>
+        <payload_hash>969408886</payload_hash>
+        <record_name>VALUE_sn_ihub_target_value</record_name>
+        <reverted_from/>
+        <source>39bbedfc87049110ea0842609bbb3565</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-10 21:53:16</sys_created_on>
+        <sys_id>fcfe6c0d8744d110ea0842609bbb359c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1814f9b73260000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-10 21:53:16</sys_updated_on>
+        <type>ETL Entity field</type>
+        <update_guid>f4fe6c0d2c44d1108fe3c2ca479e169c</update_guid>
+        <update_guid_history>f4fe6c0d2c44d1108fe3c2ca479e169c:969408886</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-13 13:17:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_etl_field">sys_rte_eb_etl_field</sys_db_object>
+        <sys_id>1dc8581903504b22a05801087138d721</sys_id>
+        <sys_metadata>78fe6c0d8744d110ea0842609bbb359b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VALUE_sn_ihub_target_value</sys_name>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_scope_delete display_value="">9a543899b4234cdc8b7c8dd99554dc01</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_etl_field_78fe6c0d8744d110ea0842609bbb359b</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_etl_field_78fe6c0d8744d110ea0842609bbb359b">fcfe6c0d8744d110ea0842609bbb359c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-13 13:17:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

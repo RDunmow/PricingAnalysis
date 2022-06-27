@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>5c94b530518491101940157523fe3b53</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app/>
+        <path>pricing-analysis</path>
+        <root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-10 08:18:57</sys_created_on>
+        <sys_id>9094b530ed84911090fae3024c844a51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pricing Analysis</sys_name>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name>sys_ux_page_registry_9094b530ed84911090fae3024c844a51</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-10 08:18:57</sys_updated_on>
+        <title>Pricing Analysis</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</application>
+        <file_path/>
+        <instance_id>7ad629afdb0ac1503050ac44d4961983</instance_id>
+        <instance_name>bppricingdemo</instance_name>
+        <name>sys_ux_page_registry_9094b530ed84911090fae3024c844a51</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>5c94b530518491101940157523fe3b53</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app/><path>pricing-analysis</path><root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-10 08:18:57</sys_created_on><sys_id>9094b530ed84911090fae3024c844a51</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Pricing Analysis</sys_name><sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package><sys_policy/><sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope><sys_update_name>sys_ux_page_registry_9094b530ed84911090fae3024c844a51</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-10 08:18:57</sys_updated_on><title>Pricing Analysis</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>1420319630</payload_hash>
+        <record_name>Pricing Analysis</record_name>
+        <reverted_from/>
+        <source>70cdd90087330110ea0842609bbb3577</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-05-26 12:28:11</sys_created_on>
+        <sys_id>012b45fd1bccd510282aa75ee54bcb7c</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1810056b3780000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application</type>
+        <update_guid>cd2b45fd85ccd51093157c6aafe24c7b</update_guid>
+        <update_guid_history>cd2b45fd85ccd51093157c6aafe24c7b:1420319630</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-13 07:51:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>0059711f14024e48801090c50f932a40</sys_id>
+        <sys_metadata>9094b530ed84911090fae3024c844a51</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pricing Analysis</sys_name>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_scope_delete display_value="">9a543899b4234cdc8b7c8dd99554dc01</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_9094b530ed84911090fae3024c844a51</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_9094b530ed84911090fae3024c844a51">012b45fd1bccd510282aa75ee54bcb7c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-13 07:51:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

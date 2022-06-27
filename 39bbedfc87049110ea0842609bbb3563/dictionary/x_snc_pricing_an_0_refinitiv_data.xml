@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Refinitiv data" max_length="40" name="x_snc_pricing_an_0_refinitiv_data" sizeclass="502" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Currency" max_length="40" name="currency" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Descriptions" max_length="124" name="descriptions" type="string"/>
+        <element label="Map" max_length="32" name="map" reference="x_snc_pricing_an_0_refinitiv_map" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Price" max_length="15" name="price" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Price Description" max_length="40" name="price_description" type="string"/>
+        <element label="Processed" max_length="40" name="processed" type="boolean"/>
+        <element default="1" label="Quantity" max_length="40" name="quantity" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Refinitiv Curve ID" max_length="40" name="refinitiv_curve_id" type="string"/>
+        <index name="index">
+            <element name="map"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="DELETE">
+        <label/>
+        <name>FDeb3279f8ec44911057af235c9fe1c7c6</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>39bbedfc87049110ea0842609bbb3563</scope_name>
+        <serialized_content>{"FlowDesigner:FDeb3279f8ec44911057af235c9fe1c7c6":{"u_g_n":"String","u_g_n.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"G/n\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_qtsrc":"String","u_qtsrc.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\" QtSrc\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_uom":"String","u_uom.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"UoM\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_qtdate":"String","u_qtdate.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"QtDate    \",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_quotation_no_":"String","u_quotation_no_.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Quotation no.     \",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_test_density":"String","u_test_density.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"           Test Density\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_curr__g_":"String","u_curr__g_.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Curr (G)\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_price":"String","u_price.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"         Price\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_noq":"String","u_noq.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"NoQ\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_curr":"String","u_curr.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Curr\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_typ":"String","u_typ.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Typ\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_per":"String","u_per.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"    per\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}},"FlowDesigner:FDeb3279f8ec44911057af235c9fe1c7c6.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"object\",\"co_type_name\":\"FDeb3279f8ec44911057af235c9fe1c7c6\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Excel Header\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-10 08:08:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af3279f887449110ea0842609bbb35c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDeb3279f8ec44911057af235c9fe1c7c6</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name>sys_complex_object_af3279f887449110ea0842609bbb35c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-10 08:08:48</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</application>
+        <file_path/>
+        <instance_id>7ad629afdb0ac1503050ac44d4961983</instance_id>
+        <instance_name>bppricingdemo</instance_name>
+        <name>sys_complex_object_af3279f887449110ea0842609bbb35c6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object"><sys_complex_object action="INSERT_OR_UPDATE"><label/><name>FDeb3279f8ec44911057af235c9fe1c7c6</name><namespace>FlowDesigner</namespace><scope_name>39bbedfc87049110ea0842609bbb3563</scope_name><serialized_content>{"FlowDesigner:FDeb3279f8ec44911057af235c9fe1c7c6":{"u_g_n":"String","u_g_n.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"G/n\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_qtsrc":"String","u_qtsrc.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\" QtSrc\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_uom":"String","u_uom.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"UoM\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_qtdate":"String","u_qtdate.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"QtDate    \",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_quotation_no_":"String","u_quotation_no_.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Quotation no.     \",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_test_density":"String","u_test_density.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"           Test Density\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_curr__g_":"String","u_curr__g_.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Curr (G)\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_price":"String","u_price.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"         Price\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_noq":"String","u_noq.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"NoQ\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_curr":"String","u_curr.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Curr\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_typ":"String","u_typ.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Typ\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_per":"String","u_per.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"    per\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}},"FlowDesigner:FDeb3279f8ec44911057af235c9fe1c7c6.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"object\",\"co_type_name\":\"FDeb3279f8ec44911057af235c9fe1c7c6\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Excel Header\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}}</serialized_content><sys_class_name>sys_complex_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-10 08:08:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>af3279f887449110ea0842609bbb35c6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>FDeb3279f8ec44911057af235c9fe1c7c6</sys_name><sys_overrides/><sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package><sys_policy/><sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope><sys_update_name>sys_complex_object_af3279f887449110ea0842609bbb35c6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-10 08:08:48</sys_updated_on><type>complex_object_schema</type></sys_complex_object></record_update>]]></payload>
+        <payload_hash>-908337365</payload_hash>
+        <record_name>FDeb3279f8ec44911057af235c9fe1c7c6</record_name>
+        <reverted_from/>
+        <source>39bbedfc87049110ea0842609bbb3565</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-10 08:08:48</sys_created_on>
+        <sys_id>e73279f887449110ea0842609bbb35c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1814ca8a0690000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-10 08:08:48</sys_updated_on>
+        <type>Complex Object</type>
+        <update_guid>ef3279f832449110b864b9dd424a5dc8</update_guid>
+        <update_guid_history>ef3279f832449110b864b9dd424a5dc8:-908337365</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-13 07:17:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_complex_object">sys_complex_object</sys_db_object>
+        <sys_id>5d63f62382c94055b48091d0dac73169</sys_id>
+        <sys_metadata>af3279f887449110ea0842609bbb35c6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDeb3279f8ec44911057af235c9fe1c7c6</sys_name>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_scope_delete display_value="">9a543899b4234cdc8b7c8dd99554dc01</sys_scope_delete>
+        <sys_update_name>sys_complex_object_af3279f887449110ea0842609bbb35c6</sys_update_name>
+        <sys_update_version display_value="sys_complex_object_af3279f887449110ea0842609bbb35c6">e73279f887449110ea0842609bbb35c9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-13 07:17:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

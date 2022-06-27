@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="SAP Data" max_length="40" name="x_snc_pricing_an_0_market_data_import" sizeclass="2250" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Curr" max_length="40" name="curr" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Curr (G)" max_length="40" name="curr_g" type="string"/>
+        <element label="Effective Date" max_length="40" name="effective_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="G/n" max_length="40" name="g_n" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="NoQ" max_length="40" name="noq" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Per" max_length="40" name="per" type="decimal"/>
+        <element label="Price" max_length="40" name="price" type="decimal"/>
+        <element label="PROS Record" max_length="32" name="pros_record" reference="x_snc_pricing_an_0_pros_index" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="QtDate    " max_length="40" name="qtdate" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="QtSrc" max_length="40" name="qtsrc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Quotation no.     " max_length="40" name="quotation_no" type="string"/>
+        <element label="Refinitiv Record" max_length="32" name="refinitiv_record" reference="x_snc_pricing_an_0_refinitiv_data" type="reference"/>
+        <element choice="1" default="new" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="10" value="new"/>
+                <element inactive_on_update="false" label="Analyse" sequence="20" value="analyse"/>
+                <element inactive_on_update="false" label="Complete" sequence="30" value="complete"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Test Density" max_length="40" name="test_density" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Typ" max_length="40" name="typ" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="UoM" max_length="40" name="uom" type="string"/>
+        <index name="index">
+            <element name="pros_record"/>
+        </index>
+        <index name="index2">
+            <element name="refinitiv_record"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

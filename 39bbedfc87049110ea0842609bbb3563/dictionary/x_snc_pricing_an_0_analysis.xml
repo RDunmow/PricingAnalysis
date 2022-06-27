@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Analysis Output" max_length="40" name="x_snc_pricing_an_0_analysis" sizeclass="515" type="collection">
+        <element label="Date" max_length="40" name="date" type="string"/>
+        <element label="Job Record" max_length="32" name="job_record" reference="x_snc_pricing_an_0_pricing_job" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="PROS Price" max_length="20" name="pros_price" type="decimal"/>
+        <element label="Pros Record" max_length="32" name="pros_record" reference="x_snc_pricing_an_0_pros_index" type="reference"/>
+        <element choice="3" default="no_match" label="Pros Status" max_length="40" name="pros_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Search Master" sequence="10" value="search_master"/>
+                <element inactive_on_update="false" label="No Match" sequence="20" value="no_match"/>
+                <element inactive_on_update="false" label="Record Found - Data Different" sequence="30" value="record_found_data_different"/>
+                <element inactive_on_update="false" label="Match" sequence="40" value="match"/>
+            </choice>
+        </element>
+        <element label="Refinitiv Price" max_length="20" name="refinitiv_price" type="decimal"/>
+        <element label="Refinitiv Record" max_length="32" name="refinitiv_record" reference="x_snc_pricing_an_0_refinitiv_data" type="reference"/>
+        <element choice="3" default="no_match" label="Refinitiv Status" max_length="40" name="refinitiv_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No Match" sequence="10" value="no_match"/>
+                <element inactive_on_update="false" label="Match" sequence="20" value="match"/>
+                <element inactive_on_update="false" label="Match price is different" sequence="30" value="match_price_is_different"/>
+            </choice>
+        </element>
+        <element label="SAP Price" max_length="20" name="sap_price" type="decimal"/>
+        <element label="SAP PROS Delta" max_length="20" name="sap_pros_delta" type="decimal"/>
+        <element label="SAP Record" max_length="32" name="sap_record" reference="x_snc_pricing_an_0_market_data_import" type="reference"/>
+        <element label="SAP Refinitiv Delta" max_length="20" name="sap_refinitiv_delta" type="decimal"/>
+        <element choice="3" default="no_match" label="SAP Status" max_length="40" name="sap_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Search Master" sequence="10" value="search_master"/>
+                <element inactive_on_update="false" label="No Match" sequence="20" value="no_match"/>
+                <element inactive_on_update="false" label="Record Found - Data Different" sequence="30" value="record_found_data_different"/>
+                <element inactive_on_update="false" label="Match" sequence="40" value="match"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="pros_record"/>
+        </index>
+        <index name="index2">
+            <element name="sap_record"/>
+        </index>
+        <index name="index3">
+            <element name="job_record"/>
+        </index>
+        <index name="index4">
+            <element name="refinitiv_record"/>
+        </index>
+        <index name="index5">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

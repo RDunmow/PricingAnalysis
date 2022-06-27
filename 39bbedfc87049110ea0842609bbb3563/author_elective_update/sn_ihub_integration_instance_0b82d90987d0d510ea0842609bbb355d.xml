@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_integration_instance">
+    <sn_ihub_integration_instance action="DELETE">
+        <description>Refinitiv Import</description>
+        <integration_table>sys_data_source</integration_table>
+        <integration_type>data_import</integration_type>
+        <internal_name/>
+        <name>Refinitiv Import</name>
+        <record_id>c382d90987d0d510ea0842609bbb355e</record_id>
+        <sys_class_name>sn_ihub_integration_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-23 10:44:30</sys_created_on>
+        <sys_id>0b82d90987d0d510ea0842609bbb355d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Refinitiv Import</sys_name>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name>sn_ihub_integration_instance_0b82d90987d0d510ea0842609bbb355d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-23 10:44:30</sys_updated_on>
+    </sn_ihub_integration_instance>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</application>
+        <file_path/>
+        <instance_id>7ad629afdb0ac1503050ac44d4961983</instance_id>
+        <instance_name>bppricingdemo</instance_name>
+        <name>sn_ihub_integration_instance_0b82d90987d0d510ea0842609bbb355d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_integration_instance"><sn_ihub_integration_instance action="INSERT_OR_UPDATE"><description>Refinitiv Import</description><integration_table>sys_data_source</integration_table><integration_type>data_import</integration_type><internal_name/><name>Refinitiv Import</name><record_id>c382d90987d0d510ea0842609bbb355e</record_id><sys_class_name>sn_ihub_integration_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-23 10:44:30</sys_created_on><sys_id>0b82d90987d0d510ea0842609bbb355d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Refinitiv Import</sys_name><sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package><sys_policy/><sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope><sys_update_name>sn_ihub_integration_instance_0b82d90987d0d510ea0842609bbb355d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-23 10:44:30</sys_updated_on></sn_ihub_integration_instance></record_update>]]></payload>
+        <payload_hash>1808444539</payload_hash>
+        <record_name>Refinitiv Import</record_name>
+        <reverted_from/>
+        <source>39bbedfc87049110ea0842609bbb3565</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-23 10:44:30</sys_created_on>
+        <sys_id>0782d90987d0d510ea0842609bbb35b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1819029d7e20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-23 10:44:30</sys_updated_on>
+        <type>Data import</type>
+        <update_guid>0f82d909bcd0d51089d09b642f76f8af</update_guid>
+        <update_guid_history>0f82d909bcd0d51089d09b642f76f8af:1808444539</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Refinitiv Import">39d2914987d0d510ea0842609bbb350b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-23 10:45:47</sys_created_on>
+        <sys_db_object display_value="" name="sn_ihub_integration_instance">sn_ihub_integration_instance</sys_db_object>
+        <sys_id>0025b5a0e08e40e580ea5400a51ca3a1</sys_id>
+        <sys_metadata>0b82d90987d0d510ea0842609bbb355d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refinitiv Import</sys_name>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_scope_delete display_value="">9a543899b4234cdc8b7c8dd99554dc01</sys_scope_delete>
+        <sys_update_name>sn_ihub_integration_instance_0b82d90987d0d510ea0842609bbb355d</sys_update_name>
+        <sys_update_version display_value="sn_ihub_integration_instance_0b82d90987d0d510ea0842609bbb355d">0782d90987d0d510ea0842609bbb35b0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-23 10:45:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

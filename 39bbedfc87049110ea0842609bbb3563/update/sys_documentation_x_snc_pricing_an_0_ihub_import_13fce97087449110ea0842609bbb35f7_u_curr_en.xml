@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_curr" label="Curr" language="en" table="x_snc_pricing_an_0_ihub_import_13fce97087449110ea0842609bbb35f7">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_curr</element>
+            <help/>
+            <hint/>
+            <label>Curr</label>
+            <language>en</language>
+            <name>x_snc_pricing_an_0_ihub_import_13fce97087449110ea0842609bbb35f7</name>
+            <plural>Currs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-12 23:02:04</sys_created_on>
+            <sys_id>0ce1d72d1b04d510282aa75ee54bcb7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Curr</sys_name>
+            <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_pricing_an_0_ihub_import_13fce97087449110ea0842609bbb35f7_u_curr_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-12 23:02:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

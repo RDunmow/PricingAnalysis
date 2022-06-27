@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>globalSearchDataConfigId</name>
+        <page display_value="">9094b530ed84911090fae3024c844a51</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-10 08:18:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>5c94b5307a8491105833cf19140dc550</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_update_name>sys_ux_page_property_5c94b5307a8491105833cf19140dc550</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-10 08:18:57</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_snc_pricing_an_0.9094b530ed84911090fae3024c844a51.root.globalSearchDataConfigId</unique_name>
+        <value>4961e3e7871033000929717936cb0ba7</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</application>
+        <file_path/>
+        <instance_id>7ad629afdb0ac1503050ac44d4961983</instance_id>
+        <instance_name>bppricingdemo</instance_name>
+        <name>sys_ux_page_property_5c94b5307a8491105833cf19140dc550</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>globalSearchDataConfigId</name><page display_value="">9094b530ed84911090fae3024c844a51</page><required_translations>[]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-10 08:18:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>5c94b5307a8491105833cf19140dc550</sys_id><sys_mod_count>0</sys_mod_count><sys_name>globalSearchDataConfigId</sys_name><sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package><sys_policy/><sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope><sys_update_name>sys_ux_page_property_5c94b5307a8491105833cf19140dc550</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-10 08:18:57</sys_updated_on><type>string</type><unique_name>x_snc_pricing_an_0.9094b530ed84911090fae3024c844a51.root.globalSearchDataConfigId</unique_name><value>4961e3e7871033000929717936cb0ba7</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-1276073126</payload_hash>
+        <record_name>globalSearchDataConfigId</record_name>
+        <reverted_from/>
+        <source>70cdd90087330110ea0842609bbb3577</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-05-26 12:28:11</sys_created_on>
+        <sys_id>952b49311b001910282aa75ee54bcb3a</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1810056b3780000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>552b49319f00191009fc5d69cd9ced3a</update_guid>
+        <update_guid_history>552b49319f00191009fc5d69cd9ced3a:-1276073126</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-13 07:51:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>73a133501a4f4e089f1728e5e730e4f1</sys_id>
+        <sys_metadata>5c94b5307a8491105833cf19140dc550</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="Pricing Analysis" source="x_snc_pricing_an_0">39bbedfc87049110ea0842609bbb3563</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pricing Analysis">39bbedfc87049110ea0842609bbb3563</sys_scope>
+        <sys_scope_delete display_value="">9a543899b4234cdc8b7c8dd99554dc01</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_5c94b5307a8491105833cf19140dc550</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_5c94b5307a8491105833cf19140dc550">952b49311b001910282aa75ee54bcb3a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-13 07:51:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

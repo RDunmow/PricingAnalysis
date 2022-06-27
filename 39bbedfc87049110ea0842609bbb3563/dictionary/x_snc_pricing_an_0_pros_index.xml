@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Pros Index" max_length="40" name="x_snc_pricing_an_0_pros_index" sizeclass="784" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="CURRENCY_CODE" max_length="40" name="currency_code" type="string"/>
+        <element label="EFFECTIVE_TIME" max_length="40" name="effective_time" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="INDEX_NAME" max_length="40" name="index_name" type="string"/>
+        <element label="Index Name Main" max_length="40" name="index_name_main" type="string"/>
+        <element label="Index Name Prefix" max_length="40" name="index_name_prefix" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="PER_QUANTITY" max_length="40" name="per_quantity" type="decimal"/>
+        <element default="False" label="Processed" max_length="40" name="processed" type="boolean"/>
+        <element choice="3" default="new" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="10" value="new"/>
+                <element inactive_on_update="false" label="Analyse" sequence="20" value="analyse"/>
+                <element inactive_on_update="false" label="Complete" sequence="30" value="complete"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="UOM_CODE" max_length="40" name="uom_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="UPDATED_AT" max_length="40" name="updated_at" type="glide_date_time"/>
+        <element label="VALUE" max_length="15" name="value" type="decimal"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
